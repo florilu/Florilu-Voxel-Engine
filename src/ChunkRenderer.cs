@@ -530,7 +530,7 @@ namespace _3D_Tests
             return dirtColor;
         }
 
-        public Color getGrassColor()
+        private Color getGrassColor()
         {
             int randomNumber = random.Next(6);
             Color greenColor = Color.ForestGreen;
